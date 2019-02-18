@@ -1,19 +1,19 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Card = props => (
   <Container>
-  <Cover>
-    <Image source={require('../assets/background2.jpg')} />
-    <Title>Styled Components</Title>
-  </Cover>
-  <Content>
-    <Logo source={require('../assets/logo-react.png')} />
-    <Wrapper>
-      <Caption>React Native</Caption>
-      <Subtitle>5 of 15 sections</Subtitle>
-    </Wrapper>
-  </Content>
+    <Cover>
+      <Image source={require("../assets/background2.jpg")} />
+      <Title>Styled Components</Title>
+    </Cover>
+    <Content>
+      <Logo source={require("../assets/logo-react.png")} />
+      <Wrapper>
+        <Caption>React Native</Caption>
+        <Subtitle>5 of 15 sections</Subtitle>
+      </Wrapper>
+    </Content>
   </Container>
 );
 
@@ -57,7 +57,7 @@ const Container = styled.View`
   border-radius: 14px;
   margin-left: 20px;
   margin-top: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15)
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 `;
 
 const Cover = styled.View`

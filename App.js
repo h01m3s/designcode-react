@@ -1,19 +1,19 @@
-import React from 'react';
-import { Text } from 'react-native';
-import styled from 'styled-components';
-import Card from './components/Card';
+import React from "react";
+import { Text } from "react-native";
+import styled from "styled-components";
+import Card from "./components/Card";
 
 export default class App extends React.Component {
   render() {
     return (
       <Container>
-      <TitleBar>
-      <Avatar source={require('./assets/avatar.jpg')} />
-        <Title>Welcome back,</Title>
-        <Name>h01m3s</Name>
-      </TitleBar>
-      <Subtitle>Countinue Learning</Subtitle>
-      <Card></Card>
+        <TitleBar>
+          <Avatar source={require("./assets/avatar.jpg")} />
+          <Title>Welcome back,</Title>
+          <Name>h01m3s</Name>
+        </TitleBar>
+        <Subtitle>Countinue Learning</Subtitle>
+        <Card />
       </Container>
     );
   }
